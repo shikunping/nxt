@@ -1,0 +1,38 @@
+@charset "utf-8";
+/************************************************************************************
+RESET
+*************************************************************************************/
+
+.head_top .head_nav .head_logo{
+	float: left\9;
+}
+
+.head_top .head_nav .head_ul{
+	float: left\9;
+	width: 60%\9;
+}
+
+.head_app{
+	float: right\9;
+	margin-top: 20px\9;
+}
+
+.main_body{
+	padding: 80px 0 90px 0\9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

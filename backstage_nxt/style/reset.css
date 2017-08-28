@@ -1,0 +1,31 @@
+@charset "utf-8";
+/************************************************************************************
+RESET
+*************************************************************************************/
+* { padding:0px; margin:0px;}
+html{ height:100%;font-size:20px}
+body{ color:#000; font-family: "微软雅黑"; background-color:#fff; font-size:0.625rem;}
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {margin: 0;padding: 0;}
+ol,ul,li{list-style:none;list-style-image:none;list-style-position:outside;list-style-type:none;}
+img, fieldset,abbr,acronym {border:0 none;}
+del,ins{text-decoration:none; }
+a{ text-decoration:none; color:#000;outline:none;}
+table{ border-collapse:collapse;　border-spacing: 0;  }
+i,b,address{ text-decoration:none; font-style:normal; font-weight:lighter;}
+caption{ text-align:left;}
+time,mark{ margin:0px; padding:0px; background:none}
+textarea,input{font-family: "微软雅黑";}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+display: block;margin: 0;padding: 0;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+
+.fr{ float:right;}
+.fl{ float:left;}
+.clearfix:after{display: block;content: '';clear: both;}
+.clearfix{zoom:1;}
+.word_nowrap{
+	display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
