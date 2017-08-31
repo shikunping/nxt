@@ -29,3 +29,5 @@ sub {vertical-align: text-bottom;}
 .word_nowrap{
 	display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 }
+.mb138{margin-bottom: 138px;}
+.mb100{margin-bottom: 100px;}

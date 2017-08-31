@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>联系我们</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1">
+	<link rel="stylesheet" type="text/css" href="../style/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="../js/plus_in/Swiper/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../style/reset.css">
+	<link rel="stylesheet" type="text/css" href="../style/common.css">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="style/iecss.css">
+	<![endif]-->
+	<script src='//kefu.easemob.com/webim/easemob.js?tenantId=46825&hide=false&sat=false' async='async'></script>
+</head>
+<body>
+
+<header class="head_top" style="">
+	 <nav class="head_nav">
+		<div class="head_logo">
+			<img src="../images/index_logo.png" class="logo">
+		</div>
+		<ul class="head_ul" id="menu_id">
+			<li class="active">
+				<a href="javasript:void(0);">首页</a>
+			</li>
+			<li>
+				<a href="javasript:void(0);">产品选购</a>
+			</li>
+			<li>
+				<a href="javasript:void(0);">公司动态</a>
+			</li>
+			<li>
+				<a href="javasript:void(0);">关于我们</a>
+			</li>	
+			<li>
+				<a href="javasript:void(0);">联系我们</a>
+			</li>		
+		</ul>
+		<div class="head_app">
+			<a href="javasript:void(0);">
+				<img src="../images/app_load.png" class="app_img">
+			</a>
+		</div>
+	 </nav>
+</header>
+<div style="height: 80px\9;display: block\9;"></div>
+
+<main class="main_body" style="">
+	<!-- 顶部图片 -->
+	<div class="common_list company_top mb100">
+		<img src="../images/contact.png" class="sy_img">
+	</div>
+
+	<!-- A&Q -->
+	<div class="contact_us common_list mb100" style="min-width: 900px;">
+		<div class="common_middel">
+
+			<div class="l_form">
+				<h4 class="title">Have Any Question?</h4>
+				<form class="" autocomplete="off">
+					<div class="form_groud">
+						<label class="label">公司名称</label>
+						<input type="text" name="name" class="form_input">
+					</div>
+					<div class="form_groud">
+						<label class="label">邮箱地址</label>
+						<input type="text" name="name" class="form_input">
+					</div>
+					<div class="form_groud">
+						<label class="label">主题</label>
+						<input type="text" name="name" class="form_input">
+					</div>
+					<div class="form_groud form_groud2">
+						<label class="label">联系方式</label>
+						<textarea type="text" name="name" class="form_textarea"></textarea>
+					</div>
+					<div class="form_btn">
+						<a href="javasript:void(0);">发表评论</a>
+					</div>
+				</form>
+			</div>
+
+			<div class="r_contact">
+				<h4 class="title">Information</h4>
+				<div class="con_info">
+					<span class="con_span">
+						<div class="info clearfix">
+							<img class="fl" src="../images/deiwei.png">
+							<div class="fl" style="text-align: left;">
+								<p class="big">地址</p>
+								<p class="small">广东省深圳市宝安臣田二路403</p>
+							</div>
+						</div>
+						<div class="info clearfix">
+							<img class="fl" src="../images/deiwei.png">
+							<div class="fl" style="text-align: left;">
+								<p class="big">邮箱</p>
+								<p class="small">www.148061166090@ieal.com</p>
+							</div>
+						</div>
+						<div class="info clearfix">
+							<img class="fl" src="../images/deiwei.png">
+							<div class="fl" style="text-align: left;">
+								<p class="big">电话</p>
+								<p class="small">0755-4790515</p>
+								<p class="small">0755-4844590</p>
+							</div>
+						</div>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- map -->
+
+	<div class="common_list">
+		<div class="common_middel">
+			<div class="con_map"></div>
+		</div>
+	</div>
+</main>
+
+
+
+<footer class="foot_bootom" style="">
+	<div class="foot_nav">
+		<div class="foot_r">
+			<span class="foot_middel">
+				<ul class="foot_ul clearfix">
+					<li><a href="">首页</a></li>
+					<li><a href="">媒体聚焦</a></li>
+					<li><a href="">产品配送</a></li>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+				<p class="foot_copy">Copyright&copy;华讯方舟智慧信息科技有限公司 版权所有 粤ICP</p>
+			</span>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../js/plus_in/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/plus_in/Swiper/js/swiper.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		/**第三个模块鼠标移上显示操作*/ 
+		$(".food_list").hover(function(){
+    		$(this).find(".food_mask").addClass('animated bounceInUp').css('display','flex');
+		},function(){
+    		$(this).find(".food_mask").removeClass('animated bounceInUp').css('display','none');
+		});
+
+		/*banner图轮播*/
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        loop:true
+	    });
+
+	    /*头部切换*/
+	    $("#menu_id li").on('click',function(e){
+	    	if(!$(this).hasClass('active')){
+    			$("#menu_id li").removeClass('active');
+    			$(this).addClass("active");
+	    	}
+	    })
+	})
+</script>
+</body>
+</html>

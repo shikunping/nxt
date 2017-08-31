@@ -114,14 +114,17 @@ body{
 	font-size: 1.6em;
 }
 
-@media (min-width: 1000px) and (max-width: 1200px){
-	.index_mask,.index_span,.class_title,.food_list{
+@media (max-width: 1200px){
+	.index_mask,.index_span,.class_title,.food_list,.d_middel,.common_change{
 		font-size: 10px;
+	}
+	.dy_date .d_l .small{
+		margin-bottom: 0.2em
 	}
 
 }
 @media (max-width: 999px){
-	.index_mask,.index_span,.class_title,.food_list{
+	.index_mask,.index_span,.class_title,.food_list,.d_middel,.common_change{
 		font-size: 8px;
 	}
 	.common_middel .index_us .title_small{
@@ -131,9 +134,10 @@ body{
 			margin-top: 1em;
 	}
 
+
 }
 @media (max-width: 600px){
-	.index_mask,.index_span,.class_title,.food_list{
+	.index_mask,.index_span,.class_title,.food_list,.d_middel,.common_change{
 		font-size: 4px;
 	}
 
@@ -253,10 +257,82 @@ body{
 
 }
 
+/*公司动态*/
+.company_top{font-size: 0;}
+.company_top .sy_img{
+	max-width: 100%;
+}
+.company_con .dy_date{display: flex;margin-top: 98px;}
+.dy_date .d_l{display: table;width: 12.5vw;height: 12.5vw;box-sizing: border-box;background-color: #aacc36;color: #fff;}
+.dy_date .d_l .d_middel{display: table-cell;vertical-align: middle;text-align: center;}
+.dy_date .d_l .small{font-size: 3.2em;margin-bottom: 0.6em;}
+.dy_date .d_l .big{font-size: 4.8em;}
+.dy_date .d_r{flex: 1;}
+
+.d_r .d_title_con{display: table;width: 100%;height: 100%;}
+.d_r .d_title_con > span{display: table-cell;vertical-align: middle;padding-left: 20px;}
+.d_r .d_title_con .d_title{font-size: 3.2em;color: #333333;margin-bottom: 0.5em;}
+.d_r .d_title_con .d_source{font-size: 1.4em;color: #929292;}
+
+.dy_contents{margin-top: 126px;}
+.dy_contents img{max-width: 100%;}
+
+.dy_jump{text-align: center;margin-top: 120px;font-size: 18px;color: #616161;}
+.dy_jump span:nth-child(2){margin-left: 60px;}
+.dy_jump .jump_a{color: #aacc36;}
+
+/*关于我们*/
+.about_2 img{max-width: 100%;}
+.all_middel{position: absolute;max-width: 1240px;left: 0;right: 0;margin: 0 auto;top: 0;height: 100%;width: 100%;overflow: hidden;}
+.about_2 .a_content{width: 50%;float: right;height: 100%;display: table;margin-right: 10%;}
+.a_content .a_middel{display: table-cell;vertical-align: middle;color: #fff;}
+.a_content .a_middel .title{font-size: 3.2em;}
+.a_content .a_middel .subtitle{font-size: 1.6em;line-height: 1.8em;margin-bottom: 1em;}
+.a_content .a_middel .content{font-size: 1.7em;line-height: 1.8em;}
+
+.about_3 .list_top{position: relative;width: 100%;height: 238px;}
+.about_3 .list_top .img{max-width: 100%;width: 100%;height: 100%;}
+.about_3 .list_top .i_ticket{position: absolute;display: inline-block;font-size: 22px;color: #fff;bottom: 0;left: 50%;transform: translate(-50%,50%);
+	background-color: #aacc36;padding: 10px 26px;border-radius: 6px;z-index: 2;
+}
+.about_3 .food_list{box-shadow:0px 0px 5px 3px #f3f2f2;}
+.about_3 .height_m{height: 6.6vw;}
+.about_3 .list_content{padding: 0 10px 10px 32px;height: 270px;}
+.about_3 .list_content .subtitle{font-size: 12px;color: #8a8a8a;margin-bottom: 36px;}
+.about_3 .list_content .con{font-size: 16px;color: #222222;line-height: 26px;}
+.main_body .about_3 .common_middel{overflow: inherit;}
+
+.about_4{}
+.about_4 img{max-width: 100%;}
+.about_4 .tic_list{margin-top: 2.7vw;}
+.about_4 .tic_list span{color: #fff;background-color: #aacc36;font-size: 1.8em;border-radius: 4px;display: inline-block;width: 6.1em;text-align: center;padding: 0.37em 0; margin: 0 1.2em 1.2em 0;}
+.about_4 .content{width: 60%;margin-top: 4%;margin-left: 8vw;}
+.about_4 .content p{font-size: 1.3em;color: #000000;line-height: 28px;}
 
 
+/*联系我们*/
+.contact_us{}
+.contact_us .l_form{width: 60%;float: left;} 
+.contact_us .r_contact{width: 40%;float: right;}
 
+.contact_us .title{font-size: 30px;margin-bottom: 25px;}
+.contact_us .form_groud{position: relative;width: 90%;background-color: #f6faf9;height: 62px;line-height: 62px;padding-left: 40px;margin-bottom: 13px;}
+.contact_us .label{font-size: 12px;color: #222222;position: absolute;line-height: 62px;}
+.contact_us .form_input{background-color: #f6faf9;outline: none;width: 85%;border: none;padding-left: 50px;}
+.contact_us .form_groud2{height: 200px;}
+.contact_us .form_textarea{height: 100%;width: 85%;padding-top: 22px;
+    box-sizing: border-box;
+    padding-left: 50px;border: none;outline: none;background-color: #f6faf9;}
+.contact_us .form_btn{margin-top: 34px;}
+.contact_us .form_btn a{display: inline-block;color: #fff;background-color: #aacc36;height: 62px;width: 206px;text-align: center;line-height: 62px;font-size: 18px;border-radius: 4px;}
 
+.r_contact .con_info{background-color: #231c24;width: 100%;height: 412px;display: table;}
+.r_contact .con_info .con_span{display: table-cell;height: 100%;vertical-align: middle;text-align: center;}
+.r_contact .con_info .info{clear: both; margin-bottom: 5%;padding-left: 10%;}
+.r_contact .con_info .big{font-size: 16px;color: #fff;margin:10px 0 10px 24px;}
+.r_contact .con_info .small{font-size: 12px;color: #fff;margin-left:24px;}
+
+.con_map{height: 478px;width: 100%;border: 1px solid #ccc;box-sizing: border-box;}
 
 
 /*脚步*/
@@ -288,7 +364,11 @@ body{
 .foot_r .foot_ul li:not(:last-child){
 	border-right: 1px solid #929292;
 }
-.foot_copy{text-align: center;font-size: 12px;color: #383737;}
+.foot_r .foot_ul li:first-child{
+	padding-left: 0;
+}
+.foot_middel{text-align: left;display: inline-block;}
+.foot_copy{font-size: 12px;color: #383737;}
 
 
 
