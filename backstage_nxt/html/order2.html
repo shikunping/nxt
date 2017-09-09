@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>订单2</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1">
+	<link rel="stylesheet" type="text/css" href="../style/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="../js/plus_in/Swiper/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../style/reset.css">
+	<link rel="stylesheet" type="text/css" href="../style/common.css">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="style/iecss.css">
+	<![endif]-->
+	<style type="text/css">
+		body{background-color: #f8f8f8;}
+	</style>
+</head>
+<body>
+
+<header class="head_top" style="">
+	 <nav class="head_nav">
+		<div class="head_logo">
+			<img src="../images/index_logo.png" class="logo">
+		</div>
+		<div class="head_order_div">
+			<ul class="head_order">
+				<li class="active">
+					<span class="step_box">
+						<p class="step_name">我的购物车</p>
+						<span class="step_n"><b>1</b><i class="icon_triangle"></i></span>
+					</span>
+				</li>
+				<li >
+					<span class="step_box">
+						<p class="step_name">编写订单信息</p>
+						<span class="step_n"><b>2</b><i class="icon_triangle"></i></span>
+					</span>
+				</li>
+				<li>
+					<span class="step_box">
+						<p class="step_name">成功提交订单</p>
+						<span class="step_n"><b>3</b><i class="icon_triangle"></i></span>
+					</span>
+				</li>
+
+			</ul>
+		</div>
+	 </nav>
+</header>
+
+
+<div class="main_body order_body">
+	<div class="common_list">
+
+		<div class="common_middel">
+			<h4 class="order_title">填写核对信息</h4>
+			<div class="order_form">
+				<!--  收货地址-->
+				<div class="order_ground">
+					<p class="subtitle">收货地址</p>
+					<ul class="addr_ul">
+						<li class="active">
+							<a href="javascript:void(0);">
+								<b>乐乐</b>
+								<b>广东深圳市 臣田工业区</b>
+								<b>1356678</b>
+								<i class="addr_check"></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<b>乐乐</b>
+								<b>广东深圳市 臣田工业区</b>
+								<b>1356678</b>
+								<i class="addr_check"></i>
+							</a>
+						</li>
+					</ul>
+					<p class="addr_new"><a href="javascript:void(0);">+使用新地址</a></p>
+				</div>
+				<!-- 配送方式 -->
+				<div class="order_ground">
+					<p class="subtitle">配送方式</p>
+					<div class="order_type">
+						<span class="order_type_span">
+							<input type="radio" name="shop" class="order_r" id="type1">
+							<label class="order_l" for="type1">配送到家</label>
+						</span>
+						<span class="order_type_span">
+							<input type="radio" name="shop" class="order_r" id="type2">
+							<label class="order_l" for="type2">快递配送</label>
+						</span>
+						<span class="order_type_span">
+							<input type="radio" name="shop" class="order_r" id="type3">
+							<label class="order_l" for="type3">自提</label>
+						</span>
+					</div>
+				</div>
+
+				<!-- 支付类型 -->
+				<div class="order_ground">
+					<p class="subtitle">支付类型</p>
+					<div class="order_type">
+						<span class="order_type_span">
+							<input type="radio" name="pay" class="order_r" id="pay1">
+							<label class="order_l" for="pay1">线上支付</label>
+						</span>
+						<span class="order_type_span">
+							<input type="radio" name="pay" class="order_r" id="pay2">
+							<label class="order_l" for="pay2">货到付款</label>
+						</span>
+					</div>
+				</div>
+
+				<!-- 商品列表 -->
+				<table class="table_list">
+					<thead>
+						<tr>
+							<th>商品名称</th>
+							<th>单价</th>
+							<th>数量</th>
+							<th>规格</th>
+							<th>金额小计</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div class="table_img">
+									<img src="../images/buy_small.png">
+								</div>
+								<b>广东芭乐2kg120g以上/个</b>
+							</td>
+							<td>￥<b>1.59</b></td>
+							<td>1</td>
+							<td><b>120</b><b>g</b>/个</td>
+							<td>￥<b>43.80</b></td>
+						</tr>
+						<tr>
+							<td>
+								<div class="table_img">
+									<img src="../images/buy_small.png">
+								</div>
+								<b>广东芭乐2kg120g以上/个</b>
+							</td>
+							<td>￥<b>1.59</b></td>
+							<td>1</td>
+							<td><b>120</b><b>g</b>/个</td>
+							<td>￥<b>43.80</b></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- 补充说明 -->
+				<div class="order_ground order_supple">
+					<label class="supple_title">补充说明：</label>
+					<input type="text" name="" placeholder="选填，补填要求" class="supple_input">
+				</div>
+
+				<!-- 商品金额 -->
+				<div class="order_ground order_money">
+					<p class="">
+						<b>商品金额：</b>
+						<b class="bold">￥</b>
+						<b class="bold">43.8</b>
+					</p>
+					<p>
+						<b>运费：</b>
+						<b>￥</b>
+						<b>0.00</b>
+					</p>
+				</div>
+
+				<!--  提交订单-->
+				<div class="order_submit">
+					<b class="sub_g">应付款：</b>
+					<b class="sub_y">￥</b>
+					<b class="sub_y">43.8</b>
+					<a href="javascript:void(0);" class="sub_btn">提交订单</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- 使用新的地址 -->
+<div class="add_addr">
+	<h4 class="add_title">使用新地址<a href="javascript:void(0);" class="add_close">x</a></h4>
+	<form>
+		<div class="add_ground">
+			<label class="add_label">收货人姓名：</label>
+			<input type="text" name="" class="add_control">
+		</div>
+		<div class="add_ground">
+			<label class="add_label">手机号码：</label>
+			<input type="text" name="" class="add_control">
+		</div>
+		<div class="add_ground">
+			<label class="add_label">收货地址：</label>
+			<select class="add_control_select">
+				<option value="">选择</option>
+			</select>
+			<select class="add_control_select">
+				<option value="">选择</option>
+			</select>
+			<select class="add_control_select">
+				<option value="">选择</option>
+			</select>
+		</div>
+
+		<div class="add_ground">
+			<label class="add_label">详细地址：</label>
+			<input type="text" name="" class="add_control">
+		</div>
+
+		<div class="add_ground">
+			<label class="add_label">邮政编码：</label>
+			<input type="text" name="" class="add_control add_code">
+		</div>
+
+		<div class="add_save">
+			<a href="javascript:void(0);">保存</a>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
